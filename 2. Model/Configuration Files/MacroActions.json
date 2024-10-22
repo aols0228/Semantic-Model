@@ -1,4 +1,4 @@
-﻿{
+{
   "Actions": [
     {
       "Id": 1,
@@ -9,7 +9,7 @@
       "ValidContexts": "Model, Table"
     },
     {
-      "Id": 3,
+      "Id": 2,
       "Name": "Favoritmakroer\\Opret tabelgrupper",
       "Enabled": "true",
       "Execute": "/*\nForfatter: Andreas Olsen aols0228\nLink til kilde: Favoritmakro\nBeskrivelse: Makro, der udfører tre biblioteksmakroer.\n    1. Fjerner præfikser fra tabelnavne\n    2. Indsætter tabellerne i mapper, der kaldes tabelgrupper\n    3. Nulstiller alle partitioner og indsætter schema\nChange Log: (udskift denne med dine noter)\n---------------------------------------------------------------\nVer. | Dato DD-MM-YYYY | Forfatter | Beskrivelse\n1.0    19-06-2024        aols0228    Frigivelse af makro\n*/\n\nMacro(@\"Modellér metadata\\Tabeller\\Opret tabelgrupper ud fra præfikser\");",
